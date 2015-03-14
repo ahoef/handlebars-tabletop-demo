@@ -10,19 +10,9 @@
   function showInfo(data, tabletop) {
     var source   = $("#hp-template").html();
     var template = Handlebars.compile(source);
-    // console.log(data);
 
-    var mySheet = tabletop.sheets("Sheet1");
-    console.log(mySheet);
+    var context = tabletop.sheets("Sheet1");
 
-    // $.each( tabletop.sheets("Sheet1").all(), function(i, cat) {
-    //   var html = template(cat);
-    //   $("#testing").append(html);
-    // });
-
-
-
-    var context = {title: "My New Post", body: "This is my first post!"};
     var html    = template(context);
     $("#testing").append(html);
   }
