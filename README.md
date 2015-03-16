@@ -1,3 +1,10 @@
 # handlebars-tabletop-demo
 
-work in progress demo for using handlebars with tabletop.js
+```
+$ npm install -g handlebars
+```
+
+When you change a template or add a new one:
+```
+$ handlebars templates/ > js/templates.js
+```

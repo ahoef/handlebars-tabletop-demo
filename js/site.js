@@ -8,18 +8,21 @@ $(document).ready( function() {
 });
 
 function showInfo(data, tabletop) {
-	function setTemplate(template, gateway) {
+	console.log(data);
 
-		var source   = $('#' + template ).html(),
-	  	 	template = Handlebars.compile(source),
+	function setTemplate(gateway, templateVersion) {
+		var template = Handlebars.templates[templateVersion],
 			context = tabletop.sheets(gateway),
-			html    = template(context);
+			html = template(context),
+			$gwSelector = $('#' + gateway);
 
-	  	$('#' + gateway).append(html);
+		$gwSelector.append(html);
+		console.log($gwSelector.html());
 	}
 
-	setTemplate('templateA', 'womens');
-	setTemplate('templateB', 'mens');
+	setTemplate('womens', 'womens-test');
+	setTemplate('mens','templateB');
+	setTemplate('apartment','templateA');
 
 }
-    
+
