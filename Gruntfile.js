@@ -4,8 +4,8 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     'compile-handlebars': {
         allStatic: {
-          template: 'templates/template.handlebars',
-          output: 'test.html'
+          template: 'templates/test.handlebars',
+          output: 'test.html',
         }
     }
   });

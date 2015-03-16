@@ -8,13 +8,18 @@ $(document).ready( function() {
 });
 
 function showInfo(data, tabletop) {
-  var source   = $("#hp-template").html();
-  var template = Handlebars.compile(source);
+	function setTemplate(template, gateway) {
 
-  var context = tabletop.sheets("Sheet1");
+		var source   = $('#' + template ).html(),
+	  	 	template = Handlebars.compile(source),
+			context = tabletop.sheets(gateway),
+			html    = template(context);
 
-  var html    = template(context);
-  $("#testing").append(html);
+	  	$('#' + gateway).append(html);
+	}
+
+	setTemplate('templateA', 'womens');
+	setTemplate('templateB', 'mens');
 
 }
     
