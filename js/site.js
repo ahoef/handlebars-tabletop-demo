@@ -10,7 +10,7 @@ $(document).ready( function() {
 function showInfo(data, tabletop) {
 	console.log(data);
 
-	function setTemplate(gateway, templateVersion) {
+	function setTemplate(gateway, templateVersion, date) {
 		var template = Handlebars.templates[templateVersion],
 			context = tabletop.sheets(gateway),
 			html = template(context),
@@ -18,11 +18,18 @@ function showInfo(data, tabletop) {
 
 		$gwSelector.append(html);
 		console.log($gwSelector.html());
+
+		Handlebars.registerHelper('date', function(options) {
+			console.log(date);
+		});
+
 	}
 
-	setTemplate('womens', 'womens-test');
-	setTemplate('mens','templateB');
-	setTemplate('apartment','templateA');
+	setTemplate('womens', 'womens-test', '150316');
+	// setTemplate('mens','templateB');
+	// setTemplate('apartment','templateA');
 
 }
+
+
 
