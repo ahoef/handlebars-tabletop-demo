@@ -7,6 +7,7 @@ $(document).ready( function() {
                    parseNumbers: true } );
 });
 
+
 function showInfo(data, tabletop) {
 	console.log(data);
 
@@ -43,8 +44,8 @@ function showInfo(data, tabletop) {
 
 	/////////////////////////////////
 
-	setTemplate('womens', 'gw-floated-layout');
-	// setTemplate('mens','templateB');
+	setTemplate('us-womens', 'gw-floated-layout');
+	setTemplate('us-apartment','gw-floated-layout');
 	// setTemplate('apartment','templateA');
 
 }

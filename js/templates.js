@@ -1581,12 +1581,12 @@ templates['gw-floated-layout'] = template({"1":function(depth0,helpers,partials,
 },"140":function(depth0,helpers,partials,data) {
     var stack1, helper, options, alias1=this.lambda, alias2=this.escapeExpression, alias3=helpers.helperMissing, alias4="function", alias5=helpers.blockHelperMissing, buffer = 
   "		<div class=\"box box9\">\n			<a href=\"/urban/catalog/category.jsp?id="
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['32'] : stack1)) != null ? stack1.CAT1 : stack1), depth0))
+    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['31'] : stack1)) != null ? stack1.CAT1 : stack1), depth0))
     + "\" data-cm-position=\"";
   stack1 = ((helper = (helper = helpers.cmWeek || (depth0 != null ? depth0.cmWeek : depth0)) != null ? helper : alias3),(options={"name":"cmWeek","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data}),(typeof helper === alias4 ? helper.call(depth0,options) : helper));
   if (!helpers.cmWeek) { stack1 = alias5.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  buffer += "_POSITION_9\">\n				<img src=\"//www.urbanoutfitters.com/images/white.gif\"\n				class=\"img-lazyload\"\n				data-desktop=\"http://images.urbanoutfitters.com/is/image/UrbanOutfitters/";
+  buffer += "_POSITION_12\">\n				<img src=\"//www.urbanoutfitters.com/images/white.gif\"\n				class=\"img-lazyload\"\n				data-desktop=\"http://images.urbanoutfitters.com/is/image/UrbanOutfitters/";
   stack1 = ((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(options={"name":"yymmdd","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data}),(typeof helper === alias4 ? helper.call(depth0,options) : helper));
   if (!helpers.yymmdd) { stack1 = alias5.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
@@ -1595,38 +1595,38 @@ templates['gw-floated-layout'] = template({"1":function(depth0,helpers,partials,
   if (!helpers.gateway) { stack1 = alias5.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
   buffer += "/lw_12\"/>\n			</a>\n			<div class=\"shoptags\">\n				<span class=\"shop first\">\n					<a href=\"/urban/catalog/category.jsp?id="
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['32'] : stack1)) != null ? stack1.CAT1 : stack1), depth0))
+    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['31'] : stack1)) != null ? stack1.CAT1 : stack1), depth0))
     + "\" data-cm-position=\"";
   stack1 = ((helper = (helper = helpers.cmWeek || (depth0 != null ? depth0.cmWeek : depth0)) != null ? helper : alias3),(options={"name":"cmWeek","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data}),(typeof helper === alias4 ? helper.call(depth0,options) : helper));
   if (!helpers.cmWeek) { stack1 = alias5.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "_POSITION_9\">"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['32'] : stack1)) != null ? stack1.TAG1 : stack1), depth0))
+  return buffer + "_POSITION_12\">"
+    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['31'] : stack1)) != null ? stack1.TAG1 : stack1), depth0))
     + "</a>\n				</span>\n"
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['32'] : stack1)) != null ? stack1.CAT2 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(141, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['32'] : stack1)) != null ? stack1.CAT3 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(143, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['31'] : stack1)) != null ? stack1.CAT2 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(141, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['31'] : stack1)) != null ? stack1.CAT3 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(143, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "			</div>\n		</div>\n";
 },"141":function(depth0,helpers,partials,data) {
     var stack1, helper, options, alias1=this.lambda, alias2=this.escapeExpression, buffer = 
   "		    	<span class=\"shop second\">\n		    		<a href=\"/urban/catalog/category.jsp?id="
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['32'] : stack1)) != null ? stack1.CAT2 : stack1), depth0))
+    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['31'] : stack1)) != null ? stack1.CAT2 : stack1), depth0))
     + "\" data-cm-position=\"";
   stack1 = ((helper = (helper = helpers.cmWeek || (depth0 != null ? depth0.cmWeek : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"cmWeek","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0,options) : helper));
   if (!helpers.cmWeek) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "_POSITION_9\">"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['32'] : stack1)) != null ? stack1.TAG2 : stack1), depth0))
+  return buffer + "_POSITION_12\">"
+    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['31'] : stack1)) != null ? stack1.TAG2 : stack1), depth0))
     + "</a>\n		    	</span>\n";
 },"143":function(depth0,helpers,partials,data) {
     var stack1, helper, options, alias1=this.lambda, alias2=this.escapeExpression, buffer = 
   "		    	<span class=\"shop third\">\n		    		<a href=\"/urban/catalog/category.jsp?id="
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['32'] : stack1)) != null ? stack1.CAT3 : stack1), depth0))
+    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['31'] : stack1)) != null ? stack1.CAT3 : stack1), depth0))
     + "\" data-cm-position=\"";
   stack1 = ((helper = (helper = helpers.cmWeek || (depth0 != null ? depth0.cmWeek : depth0)) != null ? helper : helpers.helperMissing),(options={"name":"cmWeek","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data}),(typeof helper === "function" ? helper.call(depth0,options) : helper));
   if (!helpers.cmWeek) { stack1 = helpers.blockHelperMissing.call(depth0,stack1,options)}
   if (stack1 != null) { buffer += stack1; }
-  return buffer + "_POSITION_9\">"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['32'] : stack1)) != null ? stack1.TAG3 : stack1), depth0))
+  return buffer + "_POSITION_12\">"
+    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['31'] : stack1)) != null ? stack1.TAG3 : stack1), depth0))
     + "</a>\n		    	</span>\n";
 },"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
     var stack1, helper, options, alias1=helpers.helperMissing, alias2="function", alias3=helpers.blockHelperMissing, alias4=this.lambda, alias5=this.escapeExpression, buffer = 
@@ -1791,7 +1791,7 @@ templates['gw-floated-layout'] = template({"1":function(depth0,helpers,partials,
     + "\n"
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['30'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(135, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n"
-    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['32'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(140, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['31'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(140, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "</section>\n";
 },"useData":true});
 templates['hp-floated-layout'] = template({"1":function(depth0,helpers,partials,data) {
