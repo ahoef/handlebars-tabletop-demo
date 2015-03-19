@@ -26,6 +26,7 @@ function showInfo(data, tabletop) {
 	}
 
 	setTemplate('us-womens', 'gw-floated-layout', '150316', 'WEEK_11', 'light');
+	setTemplate('us-mens', 'column-layout', '150316', 'WEEK_11', 'dark');
 	setTemplate('hp','hp-floated-layout', '150316');
 
 }

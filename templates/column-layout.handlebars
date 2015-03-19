@@ -1,6 +1,7 @@
-<div class="floated-layout {{tagStyle}}">
+<div class="column-layout {{tagStyle}}">
 	<section class="this-week-section addcm " data-cm-module="TW_FEATURES">
 		{{#if elements.0.CAT1.length }}
+		<div class="row">
 			<div class="box box1">
 				<a href="/urban/catalog/category.jsp?id={{ elements.0.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_1">
 					<picture>
@@ -30,135 +31,143 @@
 			    	{{/if}}
 			    </div>
 			</div>
-		{{/if}}
-
-		{{#if elements.1.CAT1.length }}
-			<div class="box box2">
-				<a href="/urban/catalog/category.jsp?id={{ elements.1.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_2">
-					<picture>
-						<!--[if lte IE 9]><video style="display: none;"><![endif]-->
-						<source srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/2.jpg" media="(min-width: 641px)" >
-							<source srcset="/urban/images/marketing/{{ yymmdd }}/mobile/_{{gateway}}/2.jpg" >
-								<img srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/2.jpg" alt="">
-								<!--[if lte IE 9]></video><![endif]-->
-			            <!--[if lte IE 9]>
-			            <img src="http://www.urbanoutfitters.com/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/2.jpg" alt="">
-			            <![endif]-->
-			        </picture>
-			    </a>
-			    <div class="shoptags">
-			    	<span class="shop first">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.1.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.1.TAG1 }}</a>
-			    	</span>
-			    	{{#if elements.1.CAT2.length }}
-			    	<span class="shop second">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.1.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.1.TAG2 }}</a>
-			    	</span>
-			    	{{/if}}
-			    	{{#if elements.1.CAT3.length }}
-			    	<span class="shop third">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.1.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.1.TAG3 }}</a>
-			    	</span>
-			    	{{/if}}
-			    </div>
-			</div>
-		{{/if}}
-
-		{{#if elements.2.CAT1.length }}
-			<div class="box box3">
-				<a href="/urban/catalog/category.jsp?id={{ elements.2.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_3">
-					<picture>
-						<!--[if lte IE 9]><video style="display: none;"><![endif]-->
-						<source srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/3.jpg" media="(min-width: 641px)" >
-							<source srcset="/urban/images/marketing/{{ yymmdd }}/mobile/_{{gateway}}/3.jpg" >
-								<img srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/3.jpg" alt="">
-								<!--[if lte IE 9]></video><![endif]-->
-			            <!--[if lte IE 9]>
-			            <img src="http://www.urbanoutfitters.com/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/3.jpg" alt="">
-			            <![endif]-->
-			        </picture>
-			    </a>
-			    <div class="shoptags">
-			    	<span class="shop first">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.2.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.2.TAG1 }}</a>
-			    	</span>
-			    	{{#if elements.2.CAT2.length }}
-			    	<span class="shop second">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.2.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.2.TAG2 }}</a>
-			    	</span>
-			    	{{/if}}
-			    	{{#if elements.2.CAT3.length }}
-			    	<span class="shop third">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.2.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.2.TAG3 }}</a>
-			    	</span>
-			    	{{/if}}
-			    </div>
-			</div>
-		{{/if}}
-
-		{{#if elements.3.CAT1.length }}
-		<div class="box box4">
-			<a href="/urban/catalog/category.jsp?id={{ elements.3.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_4">
-				<picture>
-					<!--[if lte IE 9]><video style="display: none;"><![endif]-->
-					<source srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/4.jpg" media="(min-width: 641px)" >
-						<source srcset="/urban/images/marketing/{{ yymmdd }}/mobile/_{{gateway}}/4.jpg" >
-							<img srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/4.jpg" alt="">
-							<!--[if lte IE 9]></video><![endif]-->
-		            <!--[if lte IE 9]>
-		            <img src="http://www.urbanoutfitters.com/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/4.jpg" alt="">
-		            <![endif]-->
-		        </picture>
-		    </a>
-		    <div class="shoptags">
-		    	<span class="shop first">
-		    		<a href="/urban/catalog/category.jsp?id={{ elements.3.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_4">{{ elements.3.TAG1 }}</a>
-		    	</span>
-		    	{{#if elements.3.CAT2.length }}
-		    	<span class="shop second">
-		    		<a href="/urban/catalog/category.jsp?id={{ elements.3.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_4">{{ elements.3.TAG2 }}</a>
-		    	</span>
-		    	{{/if}}
-		    	{{#if elements.3.CAT3.length }}
-		    	<span class="shop third">
-		    		<a href="/urban/catalog/category.jsp?id={{ elements.3.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_4">{{ elements.3.TAG3 }}</a>
-		    	</span>
-		    	{{/if}}
-		    </div>
 		</div>
 		{{/if}}
 
+		{{#if elements.1.CAT1.length }}
+		<div class="row">
+			<div class="small-24 medium-12 columns">
+				<div class="box box2">
+					<a href="/urban/catalog/category.jsp?id={{ elements.1.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_2">
+						<picture>
+							<!--[if lte IE 9]><video style="display: none;"><![endif]-->
+							<source srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/2.jpg" media="(min-width: 641px)" >
+								<source srcset="/urban/images/marketing/{{ yymmdd }}/mobile/_{{gateway}}/2.jpg" >
+									<img srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/2.jpg" alt="">
+									<!--[if lte IE 9]></video><![endif]-->
+				            <!--[if lte IE 9]>
+				            <img src="http://www.urbanoutfitters.com/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/2.jpg" alt="">
+				            <![endif]-->
+				        </picture>
+				    </a>
+				    <div class="shoptags">
+				    	<span class="shop first">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.1.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.1.TAG1 }}</a>
+				    	</span>
+				    	{{#if elements.1.CAT2.length }}
+				    	<span class="shop second">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.1.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.1.TAG2 }}</a>
+				    	</span>
+				    	{{/if}}
+				    	{{#if elements.1.CAT3.length }}
+				    	<span class="shop third">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.1.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.1.TAG3 }}</a>
+				    	</span>
+				    	{{/if}}
+				    </div>
+				</div>
+			{{/if}}
 
-		{{#if elements.4.CAT1.length }}
-			<div class="box box5">
-				<a href="/urban/catalog/category.jsp?id={{ elements.4.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_5">
-					<picture>
-					<!--[if lte IE 9]><video style="display: none;"><![endif]-->
-					<source srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/5.jpg" media="(min-width: 641px)" >
-						<source srcset="/urban/images/marketing/{{ yymmdd }}/mobile/_{{gateway}}/5.jpg" >
-							<img srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/5.jpg" alt="">
-							<!--[if lte IE 9]></video><![endif]-->
-			            <!--[if lte IE 9]>
-			            <img src="http://www.urbanoutfitters.com/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/5.jpg" alt="">
-			            <![endif]-->
-			        </picture>
-			    </a>
-			    <div class="shoptags">
-			    	<span class="shop first">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.4.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_5">{{ elements.4.TAG1 }}</a>
-			    	</span>
-			    	{{#if elements.4.CAT2.length }}
-			    	<span class="shop second">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.4.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_5">{{ elements.4.TAG2 }}</a>
-			    	</span>
-			    	{{/if}}
-			    	{{#if elements.4.CAT3.length }}
-			    	<span class="shop third">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.4.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_5">{{ elements.4.TAG3 }}</a>
-			    	</span>
-			    	{{/if}}
-			    </div>
+			{{#if elements.2.CAT1.length }}
+				<div class="box box3">
+					<a href="/urban/catalog/category.jsp?id={{ elements.2.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_3">
+						<picture>
+							<!--[if lte IE 9]><video style="display: none;"><![endif]-->
+							<source srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/3.jpg" media="(min-width: 641px)" >
+								<source srcset="/urban/images/marketing/{{ yymmdd }}/mobile/_{{gateway}}/3.jpg" >
+									<img srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/3.jpg" alt="">
+									<!--[if lte IE 9]></video><![endif]-->
+				            <!--[if lte IE 9]>
+				            <img src="http://www.urbanoutfitters.com/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/3.jpg" alt="">
+				            <![endif]-->
+				        </picture>
+				    </a>
+				    <div class="shoptags">
+				    	<span class="shop first">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.2.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.2.TAG1 }}</a>
+				    	</span>
+				    	{{#if elements.2.CAT2.length }}
+				    	<span class="shop second">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.2.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.2.TAG2 }}</a>
+				    	</span>
+				    	{{/if}}
+				    	{{#if elements.2.CAT3.length }}
+				    	<span class="shop third">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.2.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.2.TAG3 }}</a>
+				    	</span>
+				    	{{/if}}
+				    </div>
+				</div>
 			</div>
+			
+			{{/if}}
+
+			{{#if elements.3.CAT1.length }}
+			<div class="small-24 medium-12 columns">
+				<div class="box box4">
+					<a href="/urban/catalog/category.jsp?id={{ elements.3.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_4">
+						<picture>
+							<!--[if lte IE 9]><video style="display: none;"><![endif]-->
+							<source srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/4.jpg" media="(min-width: 641px)" >
+								<source srcset="/urban/images/marketing/{{ yymmdd }}/mobile/_{{gateway}}/4.jpg" >
+									<img srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/4.jpg" alt="">
+									<!--[if lte IE 9]></video><![endif]-->
+				            <!--[if lte IE 9]>
+				            <img src="http://www.urbanoutfitters.com/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/4.jpg" alt="">
+				            <![endif]-->
+				        </picture>
+				    </a>
+				    <div class="shoptags">
+				    	<span class="shop first">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.3.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_4">{{ elements.3.TAG1 }}</a>
+				    	</span>
+				    	{{#if elements.3.CAT2.length }}
+				    	<span class="shop second">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.3.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_4">{{ elements.3.TAG2 }}</a>
+				    	</span>
+				    	{{/if}}
+				    	{{#if elements.3.CAT3.length }}
+				    	<span class="shop third">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.3.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_4">{{ elements.3.TAG3 }}</a>
+				    	</span>
+				    	{{/if}}
+				    </div>
+				</div>
+				{{/if}}
+
+
+				{{#if elements.4.CAT1.length }}
+				<div class="box box5">
+					<a href="/urban/catalog/category.jsp?id={{ elements.4.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_5">
+						<picture>
+						<!--[if lte IE 9]><video style="display: none;"><![endif]-->
+						<source srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/5.jpg" media="(min-width: 641px)" >
+							<source srcset="/urban/images/marketing/{{ yymmdd }}/mobile/_{{gateway}}/5.jpg" >
+								<img srcset="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/5.jpg" alt="">
+								<!--[if lte IE 9]></video><![endif]-->
+				            <!--[if lte IE 9]>
+				            <img src="http://www.urbanoutfitters.com/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/5.jpg" alt="">
+				            <![endif]-->
+				        </picture>
+				    </a>
+				    <div class="shoptags">
+				    	<span class="shop first">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.4.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_5">{{ elements.4.TAG1 }}</a>
+				    	</span>
+				    	{{#if elements.4.CAT2.length }}
+				    	<span class="shop second">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.4.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_5">{{ elements.4.TAG2 }}</a>
+				    	</span>
+				    	{{/if}}
+				    	{{#if elements.4.CAT3.length }}
+				    	<span class="shop third">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.4.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_5">{{ elements.4.TAG3 }}</a>
+				    	</span>
+				    	{{/if}}
+				    </div>
+				</div>
+			</div>
+		</div>
 		{{/if}}
 
 
@@ -208,6 +217,7 @@
 			<!-- LAZY LOADING STARTS HERE -->
 			
 			{{#if elements.6.CAT1.length }}
+			<div class="row">
 				<div class="box box7">
 					<a href="/urban/catalog/category.jsp?id={{ elements.6.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_7">
 						<img src="//www.urbanoutfitters.com/images/white.gif"
@@ -231,6 +241,7 @@
 				    	{{/if}}
 					</div>
 				</div>
+			</div>
 			{{/if}}
 
 			{{#if elements.7.CAT1.length }}
@@ -524,78 +535,84 @@
 	<section class="last-week-section addcm" data-cm-module="LW_FEATURES">
 		<h3><img src="//www.urbanoutfitters.com/images/marketing/141006/more_stories.svg" title="More Stories"></h3>
 		{{#if elements.20.CAT1.length }}
-			<div class="box box1">
-				<a href="/urban/catalog/category.jsp?id={{elements.20.CAT1}}" data-cm-position="{{cmWeek}}_POSITION_1">
-					<img src="//www.urbanoutfitters.com/images/white.gif"
-					class="img-lazyload"
-					data-desktop="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/lw_1.jpg"/>
-				</a>
-				<div class="shoptags">
-					<span class="shop first">
-						<a href="/urban/catalog/category.jsp?id={{ elements.20.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_1">{{ elements.20.TAG1 }}</a>
-					</span>
-					{{#if elements.20.CAT2.length }}
-			    	<span class="shop second">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.20.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_1">{{ elements.20.TAG2 }}</a>
-			    	</span>
-			    	{{/if}}
-			    	{{#if elements.20.CAT3.length }}
-			    	<span class="shop third">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.20.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_1">{{ elements.20.TAG3 }}</a>
-			    	</span>
-			    	{{/if}}
+		<div class="row">
+			<div class="small-24 medium-12 columns">
+				<div class="box box1">
+					<a href="/urban/catalog/category.jsp?id={{elements.20.CAT1}}" data-cm-position="{{cmWeek}}_POSITION_1">
+						<img src="//www.urbanoutfitters.com/images/white.gif"
+						class="img-lazyload"
+						data-desktop="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/lw_1.jpg"/>
+					</a>
+					<div class="shoptags">
+						<span class="shop first">
+							<a href="/urban/catalog/category.jsp?id={{ elements.20.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_1">{{ elements.20.TAG1 }}</a>
+						</span>
+						{{#if elements.20.CAT2.length }}
+				    	<span class="shop second">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.20.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_1">{{ elements.20.TAG2 }}</a>
+				    	</span>
+				    	{{/if}}
+				    	{{#if elements.20.CAT3.length }}
+				    	<span class="shop third">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.20.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_1">{{ elements.20.TAG3 }}</a>
+				    	</span>
+				    	{{/if}}
+					</div>
 				</div>
 			</div>
 		{{/if}}
 
 		{{#if elements.21.CAT1.length }}
-			<div class="box box2">
-				<a href="/urban/catalog/category.jsp?id={{elements.21.CAT1}}" data-cm-position="{{cmWeek}}_POSITION_2">
-					<img src="//www.urbanoutfitters.com/images/white.gif"
-					class="img-lazyload"
-					data-desktop="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/lw_2.jpg"/>
-				</a>
-				<div class="shoptags">
-					<span class="shop first">
-						<a href="/urban/catalog/category.jsp?id={{ elements.21.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.21.TAG1 }}</a>
-					</span>
-					{{#if elements.21.CAT2.length }}
-			    	<span class="shop second">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.21.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.21.TAG2 }}</a>
-			    	</span>
-			    	{{/if}}
-			    	{{#if elements.21.CAT3.length }}
-			    	<span class="shop third">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.21.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.21.TAG3 }}</a>
-			    	</span>
-			    	{{/if}}
+			<div class="small-24 medium-12 columns">
+				<div class="box box2">
+					<a href="/urban/catalog/category.jsp?id={{elements.21.CAT1}}" data-cm-position="{{cmWeek}}_POSITION_2">
+						<img src="//www.urbanoutfitters.com/images/white.gif"
+						class="img-lazyload"
+						data-desktop="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/lw_2.jpg"/>
+					</a>
+					<div class="shoptags">
+						<span class="shop first">
+							<a href="/urban/catalog/category.jsp?id={{ elements.21.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.21.TAG1 }}</a>
+						</span>
+						{{#if elements.21.CAT2.length }}
+				    	<span class="shop second">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.21.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.21.TAG2 }}</a>
+				    	</span>
+				    	{{/if}}
+				    	{{#if elements.21.CAT3.length }}
+				    	<span class="shop third">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.21.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_2">{{ elements.21.TAG3 }}</a>
+				    	</span>
+				    	{{/if}}
+					</div>
 				</div>
-			</div>
-		{{/if}}
+			{{/if}}
 
-		{{#if elements.22.CAT1.length }}
-			<div class="box box3">
-				<a href="/urban/catalog/category.jsp?id={{elements.22.CAT1}}" data-cm-position="{{cmWeek}}_POSITION_3">
-					<img src="//www.urbanoutfitters.com/images/white.gif"
-					class="img-lazyload"
-					data-desktop="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/lw_3.jpg"/>
-				</a>
-				<div class="shoptags">
-					<span class="shop first">
-						<a href="/urban/catalog/category.jsp?id={{ elements.22.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.22.TAG1 }}</a>
-					</span>
-					{{#if elements.22.CAT2.length }}
-			    	<span class="shop second">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.22.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.22.TAG2 }}</a>
-			    	</span>
-			    	{{/if}}
-			    	{{#if elements.22.CAT3.length }}
-			    	<span class="shop third">
-			    		<a href="/urban/catalog/category.jsp?id={{ elements.22.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.22.TAG3 }}</a>
-			    	</span>
-			    	{{/if}}
+			{{#if elements.22.CAT1.length }}
+				<div class="box box3">
+					<a href="/urban/catalog/category.jsp?id={{elements.22.CAT1}}" data-cm-position="{{cmWeek}}_POSITION_3">
+						<img src="//www.urbanoutfitters.com/images/white.gif"
+						class="img-lazyload"
+						data-desktop="/urban/images/marketing/{{ yymmdd }}/_{{gateway}}/lw_3.jpg"/>
+					</a>
+					<div class="shoptags">
+						<span class="shop first">
+							<a href="/urban/catalog/category.jsp?id={{ elements.22.CAT1 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.22.TAG1 }}</a>
+						</span>
+						{{#if elements.22.CAT2.length }}
+				    	<span class="shop second">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.22.CAT2 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.22.TAG2 }}</a>
+				    	</span>
+				    	{{/if}}
+				    	{{#if elements.22.CAT3.length }}
+				    	<span class="shop third">
+				    		<a href="/urban/catalog/category.jsp?id={{ elements.22.CAT3 }}" data-cm-position="{{cmWeek}}_POSITION_3">{{ elements.22.TAG3 }}</a>
+				    	</span>
+				    	{{/if}}
+					</div>
 				</div>
 			</div>
+		</div>
 		{{/if}}
 
 		{{#if elements.23.CAT1.length }}
