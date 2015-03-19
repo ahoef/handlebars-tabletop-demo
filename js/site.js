@@ -11,10 +11,13 @@ $(document).ready( function() {
 function showInfo(data, tabletop) {
 	console.log(data);
 
-	function setTemplate(gateway, templateVersion) {
+	function setTemplate(gateway, templateVersion, yymmdd, cmWeek, tagStyle) {
+
 		var template = Handlebars.templates[templateVersion],
 			context = tabletop.sheets(gateway),
-			html = template(context),
+			weeklyInfo = {yymmdd: yymmdd, cmWeek: cmWeek, tagStyle: tagStyle, gateway: gateway},
+			newContext = $.extend({}, context, weeklyInfo),
+			html = template(newContext),
 			$gwSelector = $('#' + gateway);
 
 		$gwSelector.append(html);
@@ -22,30 +25,8 @@ function showInfo(data, tabletop) {
 
 	}
 
-	Handlebars.registerHelper('yymmdd', function(options) {
-		 return new Handlebars.SafeString('150316');
-	});
-
-	Handlebars.registerHelper('cmWeek', function(options) {
-		 return new Handlebars.SafeString('WEEK_11');
-	});
-
-
-	///////////////////// these two need to passed in as params in setTemplate
-
-	Handlebars.registerHelper('tagStyle', function(options) {
-		 return new Handlebars.SafeString('dark');
-		 // return new Handlebars.SafeString('light');
-	});
-
-	Handlebars.registerHelper('gateway', function(options) {
-		 return new Handlebars.SafeString('_w');
-	});
-
-	/////////////////////////////////
-
-	setTemplate('us-womens', 'gw-floated-layout');
-	setTemplate('us-apartment','gw-floated-layout');
+	setTemplate('us-womens', 'gw-floated-layout', '150316', 'WEEK_11', 'dark');
+	// setTemplate('us-apartment','gw-floated-layout', '150316');
 	// setTemplate('apartment','templateA');
 
 }
