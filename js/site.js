@@ -25,9 +25,8 @@ function showInfo(data, tabletop) {
 
 	}
 
-	setTemplate('us-womens', 'gw-floated-layout', '150316', 'WEEK_11', 'dark');
-	// setTemplate('us-apartment','gw-floated-layout', '150316');
-	// setTemplate('apartment','templateA');
+	setTemplate('us-womens', 'gw-floated-layout', '150316', 'WEEK_11', 'light');
+	setTemplate('hp','hp-floated-layout', '150316');
 
 }
 
