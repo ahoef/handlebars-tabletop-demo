@@ -1301,7 +1301,7 @@ templates['column-layout'] = template({"1":function(depth0,helpers,partials,data
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['14'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(73, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n"
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['15'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(78, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
-    + "\n		</div>\n	</section>\n\n\n	<section class=\"blog\">\n		<h3><img src=\"//www.urbanoutfitters.com/images/marketing/141006/from_the_blog.svg\" title=\"From the Blog\"></h3>\n		<a class=\"view-all\" href=\"http://blog.urbanoutfitters.com?cm_re=BLOG-_-NONE-_-VIEW_ALL_STORIES\">See All Stories</a>\n		<div id=\"blog-wrapper\" class=\"swipe addcm\" data-cm-module=\"BLOG\">\n			<div class=\"swipe-wrap blog-inner\">\n				<div class=\"blog-thumbnail first\">\n					<a href=\""
+    + "\n		</div>\n	</section>\n\n\n	<section class=\"blog\">\n		<h3>From the Blog</h3>\n		<a class=\"view-all\" href=\"http://blog.urbanoutfitters.com?cm_re=BLOG-_-NONE-_-VIEW_ALL_STORIES\">See All Stories</a>\n		<div id=\"blog-wrapper\" class=\"swipe addcm\" data-cm-module=\"BLOG\">\n			<div class=\"swipe-wrap blog-inner\">\n				<div class=\"blog-thumbnail first\">\n					<a href=\""
     + alias3(alias4(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['16'] : stack1)) != null ? stack1.CAT1 : stack1), depth0))
     + "\">\n						<img src=\"//www.urbanoutfitters.com/images/white.gif\"\n						class=\"img-lazyload\"\n						data-mobile=\"/urban/images/marketing/"
     + alias3(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
@@ -1365,7 +1365,7 @@ templates['column-layout'] = template({"1":function(depth0,helpers,partials,data
     + alias3(alias4(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['19'] : stack1)) != null ? stack1.SUBCOPY : stack1), depth0))
     + "</p><span class=\"read-more\">"
     + alias3(alias4(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['19'] : stack1)) != null ? stack1.TAG1 : stack1), depth0))
-    + "</span>\n					</a>\n				</div>\n			</div>\n			<div class=\"image-bullets\"></div>\n		</div>\n	</section>\n\n	<section class=\"last-week-section addcm\" data-cm-module=\"LW_FEATURES\">\n		<h3><img src=\"//www.urbanoutfitters.com/images/marketing/141006/more_stories.svg\" title=\"More Stories\"></h3>\n"
+    + "</span>\n					</a>\n				</div>\n			</div>\n			<div class=\"image-bullets\"></div>\n		</div>\n	</section>\n\n	<section class=\"last-week-section addcm\" data-cm-module=\"LW_FEATURES\">\n		<h3>More Stories</h3>\n"
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['20'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(83, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n"
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['21'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(88, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
@@ -2692,7 +2692,7 @@ templates['gw-floated-layout'] = template({"1":function(depth0,helpers,partials,
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['14'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(73, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n"
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['15'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(78, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
-    + "\n		</div>\n	</section>\n\n\n	<section class=\"blog\">\n		<h3><img src=\"//www.urbanoutfitters.com/images/marketing/141006/from_the_blog.svg\" title=\"From the Blog\"></h3>\n		<a class=\"view-all\" href=\"http://blog.urbanoutfitters.com?cm_re=BLOG-_-NONE-_-VIEW_ALL_STORIES\">See All Stories</a>\n		<div id=\"blog-wrapper\" class=\"swipe addcm\" data-cm-module=\"BLOG\">\n			<div class=\"swipe-wrap blog-inner\">\n				<div class=\"blog-thumbnail first\">\n					<a href=\""
+    + "\n		</div>\n	</section>\n\n\n	<section class=\"blog\">\n		<h3>From the Blog</h3>\n		<a class=\"view-all\" href=\"http://blog.urbanoutfitters.com?cm_re=BLOG-_-NONE-_-VIEW_ALL_STORIES\">See All Stories</a>\n		<div id=\"blog-wrapper\" class=\"swipe addcm\" data-cm-module=\"BLOG\">\n			<div class=\"swipe-wrap blog-inner\">\n				<div class=\"blog-thumbnail first\">\n					<a href=\""
     + alias3(alias4(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['16'] : stack1)) != null ? stack1.CAT1 : stack1), depth0))
     + "\">\n						<img src=\"//www.urbanoutfitters.com/images/white.gif\"\n						class=\"img-lazyload\"\n						data-mobile=\"/urban/images/marketing/"
     + alias3(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
@@ -2756,7 +2756,7 @@ templates['gw-floated-layout'] = template({"1":function(depth0,helpers,partials,
     + alias3(alias4(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['19'] : stack1)) != null ? stack1.SUBCOPY : stack1), depth0))
     + "</p><span class=\"read-more\">"
     + alias3(alias4(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['19'] : stack1)) != null ? stack1.TAG1 : stack1), depth0))
-    + "</span>\n					</a>\n				</div>\n			</div>\n			<div class=\"image-bullets\"></div>\n		</div>\n	</section>\n\n	<section class=\"last-week-section addcm\" data-cm-module=\"LW_FEATURES\">\n		<h3><img src=\"//www.urbanoutfitters.com/images/marketing/141006/more_stories.svg\" title=\"More Stories\"></h3>\n"
+    + "</span>\n					</a>\n				</div>\n			</div>\n			<div class=\"image-bullets\"></div>\n		</div>\n	</section>\n\n	<section class=\"last-week-section addcm\" data-cm-module=\"LW_FEATURES\">\n		<h3>More Stories</h3>\n"
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['20'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(83, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n"
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['21'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(88, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
@@ -3415,7 +3415,7 @@ templates['hp-floated-layout'] = template({"1":function(depth0,helpers,partials,
     + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['15'] : stack1)) != null ? stack1.TAG3 : stack1), depth0))
     + "</a>\n			    	</span>\n";
 },"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
-    var stack1, helper, alias1=this.lambda, alias2=this.escapeExpression, alias3=helpers.helperMissing, alias4="function";
+    var stack1, helper, alias1=helpers.helperMissing, alias2="function", alias3=this.escapeExpression;
 
   return "<div class=\"home\">\n  <div class=\"content-area\" >\n\n	<section class=\"main-features addcm floated-layout\" data-cm-module=\"HOMEPAGE\">\n"
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['0'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
@@ -3449,78 +3449,14 @@ templates['hp-floated-layout'] = template({"1":function(depth0,helpers,partials,
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['14'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(71, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n"
     + ((stack1 = helpers['if'].call(depth0,((stack1 = ((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['15'] : stack1)) != null ? stack1.CAT1 : stack1)) != null ? stack1.length : stack1),{"name":"if","hash":{},"fn":this.program(76, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
-    + "\n	</section>\n\n\n	<section class=\"blog\">\n		<h3><img src=\"//www.urbanoutfitters.com/images/marketing/141006/from_the_blog.svg\" title=\"From the Blog\"></h3>\n		<a class=\"view-all\" href=\"http://blog.urbanoutfitters.com?cm_re=BLOG-_-NONE-_-VIEW_ALL_STORIES\">See All Stories</a>\n		<div id=\"blog-wrapper\" class=\"swipe addcm\" data-cm-module=\"BLOG\">\n			<div class=\"swipe-wrap blog-inner\">\n				<div class=\"blog-thumbnail first\">\n					<a href=\""
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['16'] : stack1)) != null ? stack1.CAT1 : stack1), depth0))
-    + "\">\n						<img src=\"//www.urbanoutfitters.com/images/white.gif\"\n						class=\"img-lazyload\"\n						data-mobile=\"/urban/images/marketing/"
-    + alias2(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
+    + "\n	</section>\n\n\n\n	<section class=\"uoonyou-section addcm\" data-cm-module=\"HOMEPAGE\">\n	<!-- <div class=\"headline\"><img src=\"//www.urbanoutfitters.com/urban/images/UOonYOU.png\"></div> -->\n	  <a href=\"/urban/catalog/category.jsp?id=UOONYOU\" data-cm-position=\"Feature_UOONYOU\">\n	  <img src=\"//www.urbanoutfitters.com/images/white.gif\"\n	    class=\"img-lazyload\"\n	    data-mobile=\"/urban/images/marketing/"
+    + alias3(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
     + "/mobile/_"
-    + alias2(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
-    + "/hp_blog_1m.jpg\"\n						data-desktop=\"/urban/images/marketing/"
-    + alias2(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
-    + "/_"
-    + alias2(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
-    + "/blog_1.jpg\"/>\n						<h4>"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['16'] : stack1)) != null ? stack1.HEADLINE : stack1), depth0))
-    + "</h4>\n						<p>"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['16'] : stack1)) != null ? stack1.SUBCOPY : stack1), depth0))
-    + "</p><span class=\"read-more\">"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['16'] : stack1)) != null ? stack1.TAG1 : stack1), depth0))
-    + "</span>\n					</a>\n				</div>\n				<div class=\"blog-thumbnail\">\n					<a href=\""
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['17'] : stack1)) != null ? stack1.CAT1 : stack1), depth0))
-    + "\">\n						<img src=\"//www.urbanoutfitters.com/images/white.gif\"\n						class=\"img-lazyload\"\n						data-mobile=\"/urban/images/marketing/"
-    + alias2(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
-    + "/mobile/_"
-    + alias2(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
-    + "/hp_blog_2m.jpg\"\n						data-desktop=\"/urban/images/marketing/"
-    + alias2(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
-    + "/_"
-    + alias2(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
-    + "/blog_2.jpg\"/>\n						<h4>"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['17'] : stack1)) != null ? stack1.HEADLINE : stack1), depth0))
-    + "</h4>\n						<p>"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['17'] : stack1)) != null ? stack1.SUBCOPY : stack1), depth0))
-    + "</p><span class=\"read-more\">"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['17'] : stack1)) != null ? stack1.TAG1 : stack1), depth0))
-    + "</span>\n					</a>\n				</div>\n				<div class=\"blog-thumbnail\">\n					<a href=\""
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['18'] : stack1)) != null ? stack1.CAT1 : stack1), depth0))
-    + "\">\n						<img src=\"//www.urbanoutfitters.com/images/white.gif\"\n						class=\"img-lazyload\"\n						data-mobile=\"/urban/images/marketing/"
-    + alias2(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
-    + "/mobile/_"
-    + alias2(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
-    + "/hp_blog_3m.jpg\"\n						data-desktop=\"/urban/images/marketing/"
-    + alias2(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
-    + "/_"
-    + alias2(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
-    + "/blog_3.jpg\"/>\n						<h4>"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['18'] : stack1)) != null ? stack1.HEADLINE : stack1), depth0))
-    + "</h4>\n						<p>"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['18'] : stack1)) != null ? stack1.SUBCOPY : stack1), depth0))
-    + "</p><span class=\"read-more\">"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['18'] : stack1)) != null ? stack1.TAG1 : stack1), depth0))
-    + "</span>\n					</a>\n				</div>\n				<div class=\"blog-thumbnail\">\n					<a href=\""
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['19'] : stack1)) != null ? stack1.CAT1 : stack1), depth0))
-    + "\">\n						<img src=\"//www.urbanoutfitters.com/images/white.gif\"\n						class=\"img-lazyload\"\n						data-mobile=\"/urban/images/marketing/"
-    + alias2(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
-    + "/mobile/_"
-    + alias2(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
-    + "/hp_blog_4m.jpg\"\n						data-desktop=\"/urban/images/marketing/"
-    + alias2(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
-    + "/_"
-    + alias2(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
-    + "/blog_4.jpg\"/>\n						<h4>"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['19'] : stack1)) != null ? stack1.HEADLINE : stack1), depth0))
-    + "</h4>\n						<p>"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['19'] : stack1)) != null ? stack1.SUBCOPY : stack1), depth0))
-    + "</p><span class=\"read-more\">"
-    + alias2(alias1(((stack1 = ((stack1 = (depth0 != null ? depth0.elements : depth0)) != null ? stack1['19'] : stack1)) != null ? stack1.TAG1 : stack1), depth0))
-    + "</span>\n					</a>\n				</div>\n			</div>\n			<div class=\"image-bullets\"></div>\n		</div>\n	</section>\n\n	<section class=\"uoonyou-section addcm\" data-cm-module=\"HOMEPAGE\">\n	<!-- <div class=\"headline\"><img src=\"//www.urbanoutfitters.com/urban/images/UOonYOU.png\"></div> -->\n	  <a href=\"/urban/catalog/category.jsp?id=UOONYOU\" data-cm-position=\"Feature_UOONYOU\">\n	  <img src=\"//www.urbanoutfitters.com/images/white.gif\"\n	    class=\"img-lazyload\"\n	    data-mobile=\"/urban/images/marketing/"
-    + alias2(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
-    + "/mobile/_"
-    + alias2(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
+    + alias3(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
     + "/instagram.jpg\"\n	    data-desktop=\"/urban/images/marketing/"
-    + alias2(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
+    + alias3(((helper = (helper = helpers.yymmdd || (depth0 != null ? depth0.yymmdd : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"yymmdd","hash":{},"data":data}) : helper)))
     + "/_"
-    + alias2(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias3),(typeof helper === alias4 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
+    + alias3(((helper = (helper = helpers.gateway || (depth0 != null ? depth0.gateway : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"gateway","hash":{},"data":data}) : helper)))
     + "/instagram.jpg\"/>\n	    </a>\n	    <p class=\"hide-for-medium-up\">Follow us on Instagram <a href=\"http://instagram.com/urbanoutfitters\">@URBANOUTFITTERS</a></p>\n	    <p class=\"hide-for-small-only\">This is Your UO: Your favorite looks, spaces, music and more, captured in Instagram photos and here to inspire.</p>\n	    <div class=\"shoptags\">\n	      <span class=\"shop first\">\n	        <a href=\"/urban/catalog/category.jsp?id=UOONYOU\" data-cm-position=\"Feature_UOONYOU\">View All</a>\n	      </span>\n	    </div>\n	</section>\n\n  </div>\n</div>\n";
 },"useData":true});
 templates['templateA'] = template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
